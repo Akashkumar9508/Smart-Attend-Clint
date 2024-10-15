@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import Navbar from './Navbar';
-import signupImg from '../assets/SignupIMG.png';
+import signupImg from '../assets/SignupImg.png';
 import Footer from './Footer';
 const apiUrl = import.meta.env.VITE_API_BACKEND_URL;
 
