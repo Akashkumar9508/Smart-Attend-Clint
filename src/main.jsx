@@ -4,7 +4,7 @@ import Signup from "./components/Signup";
 import Login from "./components/Login";
 import Teacherdash from "./components/Teacherdash";
 import Studentdash from "./components/Studentdash";
-import Protected from './components/protected';
+import Protected from './components/Protected';
 import About from './components/About';
 import App from './App.jsx'
 import './app.css'
