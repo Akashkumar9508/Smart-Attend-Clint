@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.roundedDiv{
+    transition: 0.3s ease-in;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    background: #080e1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #26b4fc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #26b4fc;
+}
+
+
+
+.roundedDiv{
+    background: transparent;
+    backdrop-filter: blur(12px);
+    /* border: 1px solid white !important ; */
+}
+
+.formElement{
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9,
+                 -20px -20px 60px #ffffff;
+}
+
+/* icon ka code hai  */
+.absolute-icon{
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+}
+
+/* bhai ye login ka code hai  */
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .signupInput1{
+
+  }
+  
+  .labelF {
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    font-size: 14px;
+    color: gray;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+  .inputF{
+    width: 100%;
+    padding: 10px;
+    padding-top: 15px; 
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Floating label ke liye hai*/
+  .inputF:focus ~ .labelF,
+  .inputF:not(:placeholder-shown) ~ .labelF {
+    bottom: 40px; 
+    font-size: 12px;
+    color: #007BFF; 
+    
+  }
+
+  
+  
