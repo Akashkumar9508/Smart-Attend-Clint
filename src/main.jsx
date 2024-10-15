@@ -7,7 +7,7 @@ import Studentdash from "./components/Studentdash";
 import Protected from './components/Protected';
 import About from './components/About';
 import App from './App.jsx'
-import './app.css'
+import './App.css'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
